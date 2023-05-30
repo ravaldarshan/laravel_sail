@@ -20,7 +20,7 @@ docker push mydockerhubuser/laravel_sail:1.0.0
 docker pull mydockerhubuser/laravel_sail:1.0.0
 
 # docker exec -it <container_name> <command>
-
+```
 docker run: Create and start a new container based on an image.
 docker ps: List running containers.
 docker images: List available images.
@@ -41,11 +41,12 @@ docker-compose build: Build or rebuild services defined in a Compose file.
 docker-compose logs: Fetch the logs of services defined in a Compose file.
 docker-compose exec: Run a command in a service container.
 docker-compose pull: Pull images for services defined in a Compose file.
-
+```
 # delate image,container, volumns
 docker image prune <name> -f
 
 ## sail commands
+```
   sail up        Start the application
   sail up -d     Start the application in the background
   sail stop      Stop the application
@@ -55,3 +56,4 @@ docker image prune <name> -f
   sail mysql     Start a MySQL CLI session within the 'mysql' container
   sail php -v
   sail share     share the application
+```
