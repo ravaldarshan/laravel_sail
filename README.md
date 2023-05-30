@@ -57,3 +57,4 @@ docker image prune <name> -f
   sail php -v
   sail share     share the application
 ```
+https://tech.osteel.me/posts/you-dont-need-laravel-sail
